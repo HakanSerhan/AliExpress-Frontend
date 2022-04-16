@@ -575,13 +575,60 @@ margin-top: 20px;
 .catlist:active{
     color: red;
 }
-.welcomeloginimg img{
+.wl1{
+    color: white;
+    float: left;    
+    margin-top: 20px;
+    margin-left: 7%;
+}
+.wl2{
+    color: white;
+    font-weight: 600;
+    float: left;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 14px;
+    margin-right: 5px;
+
+}
+.wlcard{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 83px;
+}
+.wlimage img{
+    border-radius: 6px;
+}
+.wltitle{
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background: rgb(196,214,18);
+    background: linear-gradient(90deg, rgba(196,214,18,1) 0%, rgba(144,95,24,1) 0%, rgba(172,171,10,1) 100%, rgba(235,235,5,1) 100%);
+}
+.welcomeloginimg {
     margin-left: 8px;
     margin-right: 8px;
     border-radius: 10px;
     height: 290px;
     width: 93%;
+    float: left;
+    font-family: sans-serif;
+    background-color: #1d1c1c;
+    background-image:url(https://ae01.alicdn.com/kf/H4d1fc82a600f4c51b3a3b4c7a5edb3a6G.jpg_Q90.jpg_.webp&quot);
+    background-size: cover;
     
+}
+.welcomecontainer{
+    display: grid;
+    float: left;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    margin-left: 6%;
+    margin-top:15%;
 }
 .welcomelogin .imggg{
     border-radius: 10px;
@@ -1202,4 +1249,182 @@ font-weight: 600
 .lastfooter a{
     color: rgb(211, 206, 206);
     font-size: 14px;
+}
+.loginbox{
+    padding: 1px;
+    font-family: sans-serif;
+}
+.form_box{
+    width: 380px;
+    height: 550px;
+    position: relative;
+    margin: 6% auto;
+    border-radius: 10px;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.button_box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 10px 26px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    font-weight: 600;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 107px;
+    height: 100%;
+    border-radius: 30px;
+    background-color:#6abe15 ;
+    transition: .5s;
+}
+
+.social{
+    margin: 30px auto;
+    top: 415px;
+    position: absolute;
+    width: 320px;
+    margin-left: 8.5%;
+    border-left: 0;
+    border-top: 1px solid #999;
+    border-right:0;
+    border-bottom: 0;
+    padding-top: 20px;
+}
+.social img{
+    width: 40px;
+    cursor: pointer;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+}
+.input_group h5{
+    color: rgb(38, 38, 224);
+    font-size: 14px;
+    margin: 15px 10px 20px 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.form_box h6{
+    color: gray;
+    font-weight: 500;
+    font-size: 12px;
+
+    position: absolute;
+    margin-left: 168px;
+    margin-top: 300px;
+}
+.input_group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+  
+}
+.input_field{
+    width: 100%;
+    padding: 10px ;
+    margin: 5px 0;
+    border-left: 1px solid rgb(204, 201, 201);
+    border-top: 1px solid rgb(204, 201, 201);
+    border-right:1px solid rgb(204, 201, 201);
+    border-radius: 5px;
+    border-bottom: 1px solid rgb(204, 201, 201);
+    outline: none;
+    background: transparent;
+}
+.input_field:hover{
+    border-color: red;  
+}
+.registerselect{
+    width: 108%;
+    padding: 10px ;
+    margin: 5px 0;
+    border-left: 1px solid rgb(204, 201, 201);
+    border-top: 1px solid rgb(204, 201, 201);
+    border-right:1px solid rgb(204, 201, 201);
+    border-radius: 5px;
+    border-bottom: 1px solid rgb(204, 201, 201);
+    outline: none;
+    background: transparent;
+    font-size: 13px;
+    
+}
+.registerselect:hover{
+    border-color: red;
+}
+.arrowdown{
+    position: absolute;
+    color:gray;
+    font-size: 18px;
+    margin-left: 278px;
+    margin-top: 15px;
+}
+.submit-btn{
+    width: 100%;
+    padding: 10px 40px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background-color: #6abe15;
+    border: 0;
+    outline: none;
+    margin-left: 13px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: white;
+}.submit-btnn{
+    width: 100%;
+    padding: 10px 40px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background-color: #6abe15;
+    border: 0;
+    outline: none;
+    margin-left: 13px;
+    border-radius: 20px;
+    margin-top: 25px;
+    font-weight: 600;
+    color: white;
+}
+#login{
+    left: 45px;
+    
+}
+#register{
+    left: 445px;
+}
+.discountlogin{
+    position: absolute;
+    color: red;
+    font-size: 12px;
+    margin-left: 63px;
+    background-color: rgb(248, 248, 160);
+    border-radius: 5px;
+    padding: 8px;
+    margin-top:5px;
+}
+.pass{
+    color: gray;
+    margin-left: 275px;
+    cursor: auto;
+    position: absolute;
+    margin-top: 15px;
+}
+.pass:hover{
+    color: #1d1c1c;
 }
